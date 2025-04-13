@@ -1,0 +1,26 @@
+.page {
+    width: 100%;
+    font-family: "Inter", "Roboto", sans-serif;
+    background-color: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    -font-smoothing: -ms-text-size-adjust;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    /* Font Adjustment */
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+.page__header {
+    max-width: 984px;
+    margin: 34px auto 92px;
+}
+.page__footer {
+    margin: 92px 0 24px;
+}
